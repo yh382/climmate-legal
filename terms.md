@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Service
+permalink: /terms/
 ---
 
 # ClimMate Terms of Service

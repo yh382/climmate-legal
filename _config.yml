@@ -1,3 +1,6 @@
 title: ClimMate
-description: ClimMate Legal Documents
+description: Your climbing journey, refined.
 theme: minima
+exclude:
+  - index.html
+  - assets/
