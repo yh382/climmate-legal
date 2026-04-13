@@ -552,6 +552,10 @@ img {
   line-height: 1.59;
 }
 
+.section--dark .feature-detail-text p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .feature-detail-text .accent-line {
   width: 40px;
   height: 3px;
