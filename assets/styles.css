@@ -234,7 +234,7 @@ img {
 }
 
 .text-secondary-dark {
-  color: var(--text-secondary-dark);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .text-caption {
