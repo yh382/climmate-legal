@@ -330,6 +330,12 @@ img {
    Hero Section
    ======================================== */
 
+/* Hero wrapper creates scroll room for the phone entrance */
+.hero-wrapper {
+  height: 180vh;
+  position: relative;
+}
+
 .hero {
   padding-top: 160px;
   padding-bottom: 80px;
@@ -337,7 +343,8 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background: var(--dark-bg);
   color: var(--text-primary-dark);
@@ -409,6 +416,14 @@ img {
 .hero-mockup {
   max-width: 320px;
   margin: 0 auto;
+}
+
+/* Hero phone starts off-screen, animated by scroll JS */
+.hero-mockup .screenshot-placeholder {
+  transform: translateY(100%);
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: none;
 }
 
 /* Screenshot placeholder */
