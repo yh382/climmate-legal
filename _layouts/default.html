@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | ClimMate</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" type="image/png" href="/climmate-legal/assets/icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/climmate-legal/assets/styles.css">
+  <link rel="stylesheet" href="/climmate-legal/assets/page.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/climmate-legal/" class="nav-logo">
+        <img src="/climmate-legal/assets/icon.png" alt="ClimMate icon">
+        climMate
+      </a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/climmate-legal/#features">Features</a></li>
+        <li><a href="/climmate-legal/about">About</a></li>
+        <li><a href="mailto:support@climmatestudio.com">Support</a></li>
+        <li><a href="/climmate-legal/#download" class="nav-cta">Download</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="page-content">
+    <div class="page-inner">
+      {{ content }}
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="section section--dark footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom: 4px;">
+            <img src="/climmate-legal/assets/icon.png" alt="ClimMate" style="width: 24px; height: 24px; border-radius: 5px;">
+            climMate
+          </div>
+          <p>Your climbing journey, refined.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="/climmate-legal/#features">Features</a></li>
+            <li><a href="/climmate-legal/about">About</a></li>
+            <li><a href="mailto:support@climmatestudio.com">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/climmate-legal/privacy">Privacy Policy</a></li>
+            <li><a href="/climmate-legal/terms">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:support@climmatestudio.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ClimMate. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="/climmate-legal/privacy">Privacy</a>
+          <a href="/climmate-legal/terms">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

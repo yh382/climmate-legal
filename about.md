@@ -27,5 +27,3 @@ Have questions, feedback, or just want to say hi?
 **Email**: [support@climmatestudio.com](mailto:support@climmatestudio.com)
 
 ---
-
-[Back to Home](/)
