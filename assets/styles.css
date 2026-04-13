@@ -521,7 +521,7 @@ img {
 .feature-card p {
   font-size: 14px;
   line-height: 1.43;
-  color: var(--text-secondary-light);
+  color: #555555;
 }
 
 /* ========================================
