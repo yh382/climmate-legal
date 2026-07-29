@@ -1,40 +1,16 @@
 ---
 layout: default
-title: 个人信息清单
-description: 岩友 YANU 计划收集和使用的个人信息类型说明。
+title: Personal Data Summary
+description: Summary of the personal data categories YANU may process.
 permalink: /personal-info/
 ---
 
-# 个人信息清单
+# Personal Data Summary
 
-**更新日期：2026 年 7 月 29 日**  
-**状态：筹备版草案，正式上线前会按实际上线功能更新。**
+**Last updated: July 29, 2026**
 
-| 场景 | 信息类型 | 使用目的 | 是否必需 |
-|---|---|---|---|
-| 注册与登录 | 手机号、邮箱、用户名、认证令牌 | 创建账号、登录、账号安全 | 部分必需 |
-| 第三方登录 | 第三方账号标识、昵称、头像 | 快速登录与账号绑定 | 可选 |
-| 个人资料 | 昵称、头像、简介、所在地、主攀岩馆 | 展示个人主页和社区身份 | 可选 |
-| 身体与训练资料 | 身高、体重、臂展、训练经验、目标、伤病情况 | 生成训练建议和能力分析 | 可选 |
-| 攀爬日志 | 日期、难度、结果、尝试次数、体感、地点、备注 | 记录训练、生成统计 | 核心功能必需 |
-| 媒体上传 | 照片、视频、封面图 | 展示日志、帖子、头像和训练记录 | 可选 |
-| 位置信息 | 设备位置、搜索地点、主攀岩馆位置 | 展示附近岩馆和地图服务 | 可选授权 |
-| 社区互动 | 帖子、评论、点赞、关注、收藏、举报 | 提供社区和内容治理 | 使用社区时必需 |
-| 会员与交易 | 订阅状态、权益使用记录、平台订单标识 | 提供会员权益、处理订阅状态 | 开通会员时必需 |
-| AI 训练建议 | 对话内容、训练记录、用户偏好 | 生成训练建议与答疑 | 使用 AI 时必需 |
-| 安全与运维 | 设备信息、日志、异常记录、IP 地址 | 安全风控、故障排查、合规审计 | 必需 |
+YANU may process account information, profile details, climbing logs, training preferences, uploaded media, location information with permission, community content, membership status, AI coaching inputs, and technical logs.
 
-## 权限调用说明
+The detailed mainland China personal information inventory is maintained in Chinese:
 
-| 权限 | 使用场景 | 可否关闭 |
-|---|---|---|
-| 位置 | 查找附近岩馆、地图定位 | 可以关闭，关闭后可手动搜索 |
-| 相机 | 拍摄头像、日志照片或视频 | 可以关闭 |
-| 相册 | 选择头像、封面、日志媒体 | 可以关闭 |
-| 通知 | 接收评论、关注、训练提醒等通知 | 可以关闭 |
-
-## 你的控制方式
-
-正式上线后，你可以在 App 内管理个人资料、隐私设置、系统权限、通知偏好和账号删除。若入口尚未开放，可通过邮件联系我们处理。
-
-**support@climmatestudio.com**
+[查看个人信息清单]({{ '/cn/personal-info/' | relative_url }})

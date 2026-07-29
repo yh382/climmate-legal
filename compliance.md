@@ -1,46 +1,34 @@
 ---
 layout: default
-title: 备案与许可说明
-description: 岩友 YANU 中国大陆服务的备案、App 备案和许可准备说明。
+title: China Readiness
+description: How YANU separates global product pages from China compliance materials.
 permalink: /compliance/
 ---
 
-# 备案与许可说明
+# China Readiness
 
-**更新日期：2026 年 7 月 29 日**
+**Last updated: July 29, 2026**
 
-本页说明岩友 YANU 中国大陆服务的合规准备方向。当前网站为 GitHub Pages 过渡版本，后续会迁移到公司主体持有的独立域名和境内接入服务。
+YANU keeps the global website and the mainland China edition separate because the product story and the compliance requirements are not the same thing.
 
-## 当前状态
+The global site can stay product-led and English-first. The China edition needs Chinese-language materials for ICP filing, app filing, potential ICP licensing, domestic hosting, personal information protection disclosures, third-party service lists, and content governance.
 
-| 项目 | 状态 |
-|---|---|
-| 公司主体 | 已计划使用国内公司主体 |
-| 国内域名 | 准备以公司实名信息注册 |
-| ICP 备案 | 待国内域名与接入服务确定后提交 |
-| App 备案 | 待 ICP 备案和 App 信息准备后提交 |
-| ICP 许可证 | 会员、训练视频、地图与社区等经营性互联网信息服务上线前评估并申请 |
-| 中国区部署 | 计划使用境内服务器、数据库、对象存储和静态站 |
+## Current Structure
 
-## 为什么要迁移出 GitHub Pages
+| Edition | Path | Purpose |
+|---|---|---|
+| Global | `/` | English product and brand foundation |
+| China | `/cn/` | Chinese compliance-ready site for future domestic migration |
 
-GitHub Pages 适合作为当前产品展示和文案维护站，但它不是中国大陆备案接入商。正式备案时，网站需要使用公司主体、独立域名和境内接入服务，并在备案完成后于首页底部展示备案编号并链接至工信部备案系统。
+## Future China Deployment
 
-## 服务开放原则
+When the domestic domain and access provider are ready, the China edition can be moved to a company-owned domain hosted by a mainland China cloud provider. At that point, the site should show the ICP filing number, app filing information, company details, and any required license notices.
 
-- 在备案完成前，本网站仅作为产品介绍和筹备说明。
-- 付费会员、训练视频、高级地图、AI 建议等经营性服务，会在备案和必要许可准备完成后开放。
-- 社区发帖与评论会配套内容审核、举报、处置、隐私保护和用户协议。
-- 中国大陆用户个人信息计划存储在中国大陆境内。
+## China Materials
 
-## 后续上线前需要补充
-
-正式迁移到国内域名后，本页会补充：
-
-- 主办单位名称；
-- 统一社会信用代码对应的备案主体信息；
-- ICP 备案号；
-- App 备案信息；
-- 相关增值电信业务经营许可证信息；
-- 客服电话、联系邮箱和公司通信地址；
-- 公安备案信息（如适用）。
+- [中文中国版首页]({{ '/cn/' | relative_url }})
+- [备案与许可说明]({{ '/cn/compliance/' | relative_url }})
+- [隐私政策]({{ '/cn/privacy/' | relative_url }})
+- [用户协议]({{ '/cn/terms/' | relative_url }})
+- [个人信息清单]({{ '/cn/personal-info/' | relative_url }})
+- [第三方服务清单]({{ '/cn/third-party-sdk/' | relative_url }})

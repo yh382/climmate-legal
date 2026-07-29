@@ -1,56 +1,44 @@
 ---
 layout: default
-title: 帮助中心
-description: 岩友 YANU 的使用帮助、账号说明和联系方式。
+title: Help Center
+description: Help, support, and product notes for YANU.
 permalink: /help/
 ---
 
-# 帮助中心
+# Help Center
 
-**更新日期：2026 年 7 月 29 日**
+**Last updated: July 29, 2026**
 
-岩友 YANU 中国大陆服务仍在筹备中。以下内容用于说明计划中的产品能力，正式上线后会随 App 实际功能同步更新。
+YANU is currently being prepared for early users and partners. This page explains the planned product surface and how to contact the team.
 
-## 账号与登录
+## Accounts And Login
 
-计划支持手机号、邮箱和 Apple 登录等方式。中国大陆版本会优先考虑手机号与实名合规要求，并在隐私政策中说明账号信息的使用范围。
+YANU plans to support email login, Apple sign in, and other region-appropriate account options. The China edition will maintain its own account and compliance requirements.
 
-## 如何记录攀爬
+## Logging Climbs
 
-岩友的核心记录原则是：**grade + result = 两步完成**。
+The core logging principle is simple: **grade + result = two taps**.
 
-计划支持：
+Planned logging fields include climb type, grade, result, attempts, notes, photos, videos, gym, route, outdoor area, and session history.
 
-- 选择攀爬类型和难度；
-- 记录完成结果、尝试次数和体感；
-- 添加照片、视频和备注；
-- 关联岩馆、路线或户外地点；
-- 回看训练日历和历史记录。
+## Training And Membership
 
-## 训练与会员
+Membership features are planned around training value: video lessons, training plans, advanced analysis, maps, and AI coaching. Community posting and comments are not intended to be the standalone paid service.
 
-会员服务计划围绕训练价值提供，包括训练视频、训练计划、高级分析、地图能力和 AI 训练建议。中国大陆版本的付费会员服务会在备案与必要经营许可准备完成后开放。
+## Community
 
-## 社区内容
+YANU plans to support posts, comments, follows, likes, reports, and moderation workflows. Regional community rules may differ based on local legal requirements.
 
-用户可以发布攀爬动态、评论、点赞、关注其他用户。社区功能会配套：
+## Privacy And Account Deletion
 
-- 用户协议和社区规则；
-- 内容审核和风险处置；
-- 举报入口；
-- 黑名单和隐私设置；
-- 未成年人保护与账号安全策略。
+Account deletion, privacy settings, notification settings, and personal data requests will be available through the app or support channel when the service launches.
 
-## 隐私与删除账号
+For the China edition, see:
 
-正式上线版本会提供账号删除、隐私设置、通知设置和个人信息查阅能力。你也可以查看：
+- [隐私政策]({{ '/cn/privacy/' | relative_url }})
+- [个人信息清单]({{ '/cn/personal-info/' | relative_url }})
+- [第三方服务清单]({{ '/cn/third-party-sdk/' | relative_url }})
 
-- [隐私政策]({{ '/privacy/' | relative_url }})
-- [个人信息清单]({{ '/personal-info/' | relative_url }})
-- [第三方服务清单]({{ '/third-party-sdk/' | relative_url }})
-
-## 联系我们
-
-如果你有岩馆合作、定线员工具、训练内容或早期内测相关问题，请发送邮件至：
+## Contact
 
 **support@climmatestudio.com**

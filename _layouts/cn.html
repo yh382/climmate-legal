@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | 岩友 YANU</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/icon.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/page.css' | relative_url }}">
+</head>
+<body>
+  <nav class="nav" aria-label="主导航">
+    <div class="nav-inner">
+      <a href="{{ '/cn/' | relative_url }}" class="nav-logo" aria-label="岩友 YANU 首页">
+        <img src="{{ '/assets/icon.png' | relative_url }}" alt="">
+        <span>岩友 YANU</span>
+      </a>
+      <button class="nav-toggle" aria-label="打开菜单" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="{{ '/cn/#product' | relative_url }}">产品</a></li>
+        <li><a href="{{ '/cn/#training' | relative_url }}">训练</a></li>
+        <li><a href="{{ '/cn/#map' | relative_url }}">地图</a></li>
+        <li><a href="{{ '/cn/#compliance' | relative_url }}">合规</a></li>
+        <li><a href="{{ '/cn/help/' | relative_url }}">帮助</a></li>
+        <li><a href="{{ '/' | relative_url }}" class="nav-cta">Global</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <div class="page-inner">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="section section--dark footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo footer-logo">
+            <img src="{{ '/assets/icon.png' | relative_url }}" alt="">
+            <span>岩友 YANU</span>
+          </div>
+          <p>记录、训练、一起攀岩。中国大陆服务筹备中。</p>
+        </div>
+        <div class="footer-col">
+          <h4>产品</h4>
+          <ul>
+            <li><a href="{{ '/cn/#product' | relative_url }}">功能介绍</a></li>
+            <li><a href="{{ '/cn/#training' | relative_url }}">会员服务</a></li>
+            <li><a href="{{ '/cn/#map' | relative_url }}">地图能力</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>合规</h4>
+          <ul>
+            <li><a href="{{ '/cn/compliance/' | relative_url }}">备案与许可说明</a></li>
+            <li><a href="{{ '/cn/personal-info/' | relative_url }}">个人信息清单</a></li>
+            <li><a href="{{ '/cn/third-party-sdk/' | relative_url }}">第三方服务清单</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>联系</h4>
+          <ul>
+            <li><a href="{{ '/cn/about/' | relative_url }}">关于我们</a></li>
+            <li><a href="{{ '/cn/help/' | relative_url }}">帮助中心</a></li>
+            <li><a href="mailto:support@climmatestudio.com">support@climmatestudio.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2026 岩友 YANU. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <span>ICP备案号将在备案完成后展示</span>
+          <a href="https://beian.miit.gov.cn/" rel="noopener">工信部备案系统</a>
+          <a href="{{ '/' | relative_url }}">Global site</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

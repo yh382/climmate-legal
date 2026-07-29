@@ -1,72 +1,43 @@
 ---
 layout: default
-title: 用户协议
-description: 岩友 YANU 中国大陆版本用户协议草案。
+title: Terms of Service
+description: Global terms of service draft for YANU.
 permalink: /terms/
 ---
 
-# 用户协议
+# Terms of Service
 
-**更新日期：2026 年 7 月 29 日**  
-**状态：筹备版草案，正式上线前会以备案主体信息更新。**
+**Last updated: July 29, 2026**
+**Status: Draft for pre-launch website use.**
 
-欢迎使用岩友 YANU。本协议用于说明你使用岩友提供的攀爬记录、训练、地图、社区和 AI 建议服务时的基本规则。
+These terms describe the planned rules for using YANU's climbing logs, training, maps, community features, membership services, and AI coaching.
 
-当前中国大陆服务尚未正式开放。本协议先作为官网与合规材料草案，正式上线前会补充公司主体全称、联系方式、备案号、许可信息和争议解决条款。
+## Service
 
-## 1. 服务内容
+YANU plans to provide climbing records, progress analysis, training content, route and gym discovery, community features, AI-assisted suggestions, and membership benefits.
 
-岩友计划提供以下服务：
+## Accounts
 
-- 攀爬日志记录与训练数据管理；
-- 能力分析、训练计划和训练视频；
-- 岩馆、路线、岩区地图与查询；
-- 社区发布、评论、点赞、关注和举报；
-- AI 训练建议与问答；
-- 会员订阅和增值服务。
+You are responsible for keeping your account information accurate and protecting your login credentials. Do not impersonate others, misuse accounts, or use the service for unlawful or harmful activity.
 
-中国大陆版本的付费会员服务将在备案、App 备案及必要经营许可准备完成后开放。
+## User Content
 
-## 2. 账号使用
+You are responsible for the content you post, upload, or share. Do not post illegal, infringing, abusive, deceptive, unsafe, harassing, or otherwise inappropriate content.
 
-你应提供真实、准确、合法的账号信息，并妥善保管账号和登录凭证。你不得冒用他人身份、恶意注册账号、出租出借账号，或利用账号从事违法违规活动。
+YANU may moderate, remove, restrict, or report content when necessary for safety, legal compliance, or product integrity.
 
-## 3. 用户内容
+## Membership
 
-你对自己发布的内容负责。你不得发布、上传、评论或传播违法违规、侵权、骚扰、欺诈、低俗、暴力、危害未成年人或其他不适宜内容。
+Paid membership features may include training videos, training plans, advanced analytics, maps, AI coaching, and other benefits. Pricing, renewal, cancellation, and refund details will be shown in the app or relevant platform flow.
 
-你理解并同意，我们可以依法依规对用户内容进行审核、限制展示、删除、屏蔽、断开链接、暂停或终止账号使用，并配合主管部门要求处理相关内容。
+## AI And Safety
 
-## 4. 社区规则
+AI coaching is informational and does not replace medical advice, professional coaching, or personal safety judgment. Climbing involves inherent risk. Users should follow gym, crag, equipment, and professional guidance.
 
-岩友社区围绕真实攀爬、训练和岩馆交流建立。请尊重其他用户、岩馆、教练和定线员。禁止刷屏、引战、广告骚扰、恶意评价、侵犯隐私或诱导危险攀爬行为。
+## China Edition
 
-## 5. 会员服务
+The mainland China edition has separate Chinese legal documents and compliance notices. See the [China edition]({{ '/cn/' | relative_url }}) for those materials.
 
-会员服务可能包括训练视频、高级分析、地图能力、AI 建议和其他增值功能。具体价格、权益、期限、自动续费、退款规则会在 App 内单独展示。
-
-若你通过 Apple App Store 或其他渠道订阅，支付、续费和退款规则还会受到对应平台规则约束。
-
-## 6. AI 建议说明
-
-AI 教练提供的是训练参考，不构成医疗建议、专业教练承诺或安全保证。攀岩具有固有风险，你应根据自身身体状况、训练经验和现场环境自行判断。
-
-## 7. 安全免责声明
-
-攀岩、抱石、户外攀爬及相关训练可能导致受伤甚至更严重后果。你应遵守岩馆或户外场地规则，使用合格装备，并在必要时接受专业指导。
-
-## 8. 知识产权
-
-岩友的名称、标识、界面设计、原创内容和软件相关权利归我们或相关权利人所有。未经许可，你不得复制、修改、传播、反向工程或用于商业目的。
-
-你保留自己发布内容的合法权利。为提供服务，你授权我们在必要范围内展示、存储、分发和处理你发布的内容。
-
-## 9. 服务变更与终止
-
-我们可能根据产品规划、法律法规、运营安全或商业安排调整、暂停或终止部分服务。若涉及重大权益变化，我们会通过适当方式通知。
-
-## 10. 联系我们
-
-如你对本协议或服务有任何问题，可联系：
+## Contact
 
 **support@climmatestudio.com**

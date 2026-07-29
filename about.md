@@ -1,41 +1,33 @@
 ---
 layout: default
-title: 关于岩友 YANU
-description: 岩友 YANU 是面向攀岩者的记录、训练、地图与社区服务。
+title: About YANU
+description: YANU is a climbing companion for logs, training, maps, community, and AI coaching.
 permalink: /about/
 ---
 
-# 关于岩友 YANU
+# About YANU
 
-**更新日期：2026 年 7 月 29 日**
+**Last updated: July 29, 2026**
 
-岩友 YANU 是为攀岩者设计的记录、训练、地图与社区服务。我们希望把攀爬记录做得足够轻，把训练反馈做得足够清楚，让用户在长期训练中看到自己的真实进步。
+YANU is designed for climbers who want a calmer way to record sessions, understand progress, train with intent, and stay connected to the places and people they climb with.
 
-当前中国大陆服务仍处于筹备阶段。正式上线前，我们会完成公司主体下的域名备案、App 备案、必要经营许可、隐私政策、用户协议、个人信息清单与第三方服务清单。
+The product is being prepared as one brand with separate regional operations. The global website uses English as the foundation. The China edition is maintained separately in Chinese for ICP filing, app filing, licensing, domestic hosting, personal information disclosures, and local compliance materials.
 
-## 我们提供什么
+## What YANU Provides
 
-- **攀爬日志**：用尽量少的步骤记录 grade、result、训练地点、照片、视频和体感。
-- **能力分析**：基于用户记录生成训练量、难度边界、能力趋势和恢复建议。
-- **训练内容**：提供结构化训练视频、训练计划和会员权益。
-- **地图服务**：帮助用户发现岩馆、路线、岩区和收藏地点。
-- **社区交流**：支持发帖、评论、关注、点赞和举报，围绕真实攀爬建立交流。
-- **AI 教练**：在用户授权范围内提供训练建议和答疑。
+- **Climbing logs**: fast grade-and-result capture with optional media, notes, attempts, style tags, and location.
+- **Progress analysis**: long-term training volume, grade range, intensity, style, and consistency signals.
+- **Training content**: structured videos, training plans, and membership features.
+- **Maps**: gyms, routes, climbing areas, saved places, and location-aware discovery.
+- **Community**: posts, comments, likes, follows, reports, and climbing-focused discussion.
+- **AI coaching**: permissioned training suggestions based on user-provided data.
 
-## 中国大陆版本规划
+## Regional Structure
 
-中国大陆版本将采用独立域名、独立后端、独立数据库和境内部署。用户个人信息不与海外版本做实时双向同步。
+The China edition will use separate hosting, compliance copy, legal notices, and operational disclosures. Personal information for mainland China users is planned to be handled through domestic infrastructure, with local service providers and China-specific legal documents.
 
-我们会按中国大陆合规要求准备：
+## Contact
 
-- ICP 备案和 App 备案；
-- 经营性互联网信息服务所需许可评估与申请；
-- 内容审核、举报、处置和社区治理流程；
-- 个人信息保护、权限说明和第三方服务披露；
-- 已备案模型接入、登记与公示。
-
-## 联系方式
-
-业务合作、岩馆合作、内容合作或用户反馈，可通过邮件联系：
+For partnerships, climbing gyms, content, early access, or support:
 
 **support@climmatestudio.com**

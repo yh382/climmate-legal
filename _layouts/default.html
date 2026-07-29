@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | 岩友 YANU</title>
+  <title>{{ page.title }} | YANU</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="icon" type="image/png" href="{{ '/assets/icon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,22 +13,22 @@
   <link rel="stylesheet" href="{{ '/assets/page.css' | relative_url }}">
 </head>
 <body>
-  <nav class="nav" aria-label="主导航">
+  <nav class="nav" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="岩友 YANU 首页">
+      <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="YANU home">
         <img src="{{ '/assets/icon.png' | relative_url }}" alt="">
-        <span>岩友 YANU</span>
+        <span>YANU</span>
       </a>
-      <button class="nav-toggle" aria-label="打开菜单" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="{{ '/#product' | relative_url }}">产品</a></li>
-        <li><a href="{{ '/#training' | relative_url }}">训练</a></li>
-        <li><a href="{{ '/#map' | relative_url }}">地图</a></li>
-        <li><a href="{{ '/#compliance' | relative_url }}">合规</a></li>
-        <li><a href="{{ '/help/' | relative_url }}">帮助</a></li>
-        <li><a href="mailto:support@climmatestudio.com" class="nav-cta">联系团队</a></li>
+        <li><a href="{{ '/#product' | relative_url }}">Product</a></li>
+        <li><a href="{{ '/#training' | relative_url }}">Training</a></li>
+        <li><a href="{{ '/#map' | relative_url }}">Map</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/help/' | relative_url }}">Help</a></li>
+        <li><a href="{{ '/cn/' | relative_url }}" class="nav-cta">China Edition</a></li>
       </ul>
     </div>
   </nav>
@@ -45,40 +45,40 @@
         <div class="footer-brand">
           <div class="nav-logo footer-logo">
             <img src="{{ '/assets/icon.png' | relative_url }}" alt="">
-            <span>岩友 YANU</span>
+            <span>YANU</span>
           </div>
-          <p>记录、训练、一起攀岩。中国大陆服务筹备中。</p>
+          <p>Track, train, and climb together.</p>
         </div>
         <div class="footer-col">
-          <h4>产品</h4>
+          <h4>Product</h4>
           <ul>
-            <li><a href="{{ '/#product' | relative_url }}">功能介绍</a></li>
-            <li><a href="{{ '/#training' | relative_url }}">会员服务</a></li>
-            <li><a href="{{ '/#map' | relative_url }}">地图能力</a></li>
+            <li><a href="{{ '/#product' | relative_url }}">Features</a></li>
+            <li><a href="{{ '/#training' | relative_url }}">Training</a></li>
+            <li><a href="{{ '/#map' | relative_url }}">Maps</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>合规</h4>
+          <h4>Legal</h4>
           <ul>
-            <li><a href="{{ '/compliance/' | relative_url }}">备案与许可说明</a></li>
-            <li><a href="{{ '/personal-info/' | relative_url }}">个人信息清单</a></li>
-            <li><a href="{{ '/third-party-sdk/' | relative_url }}">第三方服务清单</a></li>
+            <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+            <li><a href="{{ '/terms/' | relative_url }}">Terms of Service</a></li>
+            <li><a href="{{ '/compliance/' | relative_url }}">China Readiness</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>联系</h4>
+          <h4>Contact</h4>
           <ul>
-            <li><a href="{{ '/about/' | relative_url }}">关于我们</a></li>
-            <li><a href="{{ '/help/' | relative_url }}">帮助中心</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/help/' | relative_url }}">Help Center</a></li>
             <li><a href="mailto:support@climmatestudio.com">support@climmatestudio.com</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Copyright © 2026 岩友 YANU. All rights reserved.</p>
+        <p>Copyright © 2026 YANU. All rights reserved.</p>
         <div class="footer-bottom-links">
-          <span>ICP备案号将在备案完成后展示</span>
-          <a href="https://beian.miit.gov.cn/" rel="noopener">工信部备案系统</a>
+          <a href="{{ '/cn/' | relative_url }}">中文中国版</a>
+          <a href="mailto:support@climmatestudio.com">Contact</a>
         </div>
       </div>
     </div>
