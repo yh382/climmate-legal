@@ -4,13 +4,13 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-# ClimMate Privacy Policy
+# YANU Privacy Policy
 
 **Last Updated: March 27, 2026**
 
-ClimMate ("we," "us," or "our") operates the ClimMate mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
+YANU ("we," "us," or "our") operates the YANU mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
-By using ClimMate, you agree to the collection and use of information in accordance with this policy.
+By using YANU, you agree to the collection and use of information in accordance with this policy.
 
 ---
 
@@ -60,7 +60,7 @@ You can deny location permission and still use the App — you will need to sear
 
 ### 1.5 Social & Community Data
 
-If you use ClimMate's social features, we collect:
+If you use YANU's social features, we collect:
 
 - **Posts and comments** you create, including any attached media or training data
 - **Follows**: who you follow and who follows you
@@ -73,7 +73,7 @@ If you use ClimMate's social features, we collect:
 
 ### 1.6 AI Coaching Data
 
-ClimMate offers an AI-powered coaching feature. When you use it:
+YANU offers an AI-powered coaching feature. When you use it:
 
 - Your climbing history, profile data, and chat messages are sent to our AI service provider (OpenAI) to generate personalized coaching responses.
 - Your AI coaching conversation history is stored on our servers.
@@ -137,7 +137,7 @@ Each provider is bound by their own privacy policy and data processing terms.
 
 ### 3.2 Other Users
 
-Depending on your privacy settings, other ClimMate users may see:
+Depending on your privacy settings, other YANU users may see:
 
 - Your username, display name, avatar, and bio (always public)
 - Your posts and comments (based on your visibility setting: public, followers-only, or private)
@@ -215,7 +215,7 @@ You can revoke location permission at any time through your device settings. The
 
 ## 7. Children's Privacy
 
-ClimMate is not intended for children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will delete it.
+YANU is not intended for children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will delete it.
 
 ---
 
@@ -244,4 +244,4 @@ If you have questions about this Privacy Policy or wish to exercise your data ri
 
 ---
 
-*This privacy policy applies to the ClimMate mobile application and associated services.*
+*This privacy policy applies to the YANU mobile application and associated services.*

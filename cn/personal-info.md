@@ -1,7 +1,7 @@
 ---
 layout: cn
 title: 个人信息清单
-description: 岩友 YANU 计划收集和使用的个人信息类型说明。
+description: YANU 岩有计划收集和使用的个人信息类型说明。
 permalink: /cn/personal-info/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: cn
 title: 第三方服务清单
-description: 岩友 YANU 中国大陆版本计划使用的第三方服务说明。
+description: YANU 岩有中国大陆版本计划使用的第三方服务说明。
 permalink: /cn/third-party-sdk/
 ---
 

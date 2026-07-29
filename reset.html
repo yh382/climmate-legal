@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reset Password | ClimMate</title>
-  <meta name="description" content="Reset your ClimMate account password.">
+  <title>Reset Password | YANU</title>
+  <meta name="description" content="Reset your YANU account password.">
   <link rel="icon" type="image/png" href="/climmate-legal/assets/icon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,12 +121,12 @@
   <div class="card">
     <div class="brand">
       <img src="/climmate-legal/assets/icon.png" alt="">
-      climMate
+      YANU
     </div>
 
     <div id="form-area">
       <h1>Reset password</h1>
-      <p class="lead">Enter a new password for your ClimMate account. Minimum 6 characters.</p>
+      <p class="lead">Enter a new password for your YANU account. Minimum 6 characters.</p>
 
       <form id="reset-form" autocomplete="off">
         <label for="pw">New password</label>
@@ -165,8 +165,8 @@
       if (!token) {
         formArea.innerHTML =
           '<h1>Invalid link</h1>' +
-          '<p class="lead">This reset link is missing its token. Open ClimMate and request a new password reset.</p>' +
-          '<a class="open-app" href="climmate://">Open ClimMate</a>';
+          '<p class="lead">This reset link is missing its token. Open YANU and request a new password reset.</p>' +
+          '<a class="open-app" href="climmate://">Open YANU</a>';
         return;
       }
 
@@ -203,8 +203,8 @@
             if (r.status === 200 && r.body && r.body.ok) {
               formArea.innerHTML =
                 '<h1>Password reset</h1>' +
-                '<p class="lead">Your password has been updated. Open ClimMate and sign in with your new password.</p>' +
-                '<a class="open-app" href="climmate://">Open ClimMate</a>';
+                '<p class="lead">Your password has been updated. Open YANU and sign in with your new password.</p>' +
+                '<a class="open-app" href="climmate://">Open YANU</a>';
               return;
             }
             var detail = (r.body && r.body.detail) || "Reset failed. The link may be expired — request a new one from the app.";

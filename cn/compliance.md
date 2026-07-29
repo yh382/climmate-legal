@@ -1,7 +1,7 @@
 ---
 layout: cn
 title: 备案与许可说明
-description: 岩友 YANU 中国大陆服务的备案、App 备案和许可准备说明。
+description: YANU 岩有中国大陆服务的备案、App 备案和许可准备说明。
 permalink: /cn/compliance/
 ---
 
@@ -9,7 +9,7 @@ permalink: /cn/compliance/
 
 **更新日期：2026 年 7 月 29 日**
 
-本页说明岩友 YANU 中国大陆服务的合规准备方向。当前网站为 GitHub Pages 过渡版本，后续会迁移到公司主体持有的独立域名和境内接入服务。
+本页说明 YANU 岩有中国大陆服务的合规准备方向。当前网站为 GitHub Pages 过渡版本，后续会迁移到公司主体持有的独立域名和境内接入服务。
 
 ## 当前状态
 

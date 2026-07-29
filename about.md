@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-# About ClimMate
+# About YANU
 
-ClimMate is a climbing training platform designed for climbers who want to track progress, train smarter, and connect with the climbing community.
+YANU is a climbing training platform designed for climbers who want to track progress, train smarter, and connect with the climbing community.
 
 ## What We Do
 
@@ -18,7 +18,7 @@ ClimMate is a climbing training platform designed for climbers who want to track
 
 ## Our Philosophy
 
-We believe training should be simple and intuitive. ClimMate removes the friction from logging climbs so you can focus on what matters — climbing.
+We believe training should be simple and intuitive. YANU removes the friction from logging climbs so you can focus on what matters — climbing.
 
 ## Contact
 

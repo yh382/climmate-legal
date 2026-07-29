@@ -3,18 +3,18 @@ layout: default
 title: Help Center
 ---
 
-# ClimMate Help Center
+# YANU Help Center
 
-Welcome to the ClimMate Help Center. Here you'll find answers to common questions about using the app.
+Welcome to the YANU Help Center. Here you'll find answers to common questions about using the app.
 
 ---
 
-## Getting Started with ClimMate
+## Getting Started with YANU
 {: #getting-started}
 
 ### Creating Your Account
 
-1. Download ClimMate from the App Store
+1. Download YANU from the App Store
 2. Tap **Sign Up** and enter your email, username, and password — or use **Sign in with Apple** for one-tap registration
 3. Your **username** is permanent and must be unique (letters, numbers, underscores only). Your **display name** can be changed anytime and supports any language
 
@@ -40,7 +40,7 @@ Go to **Settings** (gear icon on your Profile tab) to customize:
 ## How to Log Your Climbs
 {: #logging-climbs}
 
-ClimMate makes it easy to record your climbing sessions. The core principle: **grade + result = 2 taps**.
+YANU makes it easy to record your climbing sessions. The core principle: **grade + result = 2 taps**.
 
 ### Quick Log Entry
 
@@ -78,9 +78,9 @@ Training plans help you structure your climbing practice with guided workouts an
 
 ### Finding a Plan
 
-Go to the **ClimMate** tab and look for training plans. You can browse:
+Go to the **YANU** tab and look for training plans. You can browse:
 
-- **Official plans** — Curated by ClimMate, designed for different skill levels and goals
+- **Official plans** — Curated by YANU, designed for different skill levels and goals
 - **Community plans** — Created and shared by other climbers
 - **My custom plans** — Plans you've created yourself
 
@@ -88,7 +88,7 @@ Go to the **ClimMate** tab and look for training plans. You can browse:
 
 1. Browse and select a plan that matches your goal (e.g., "Beginner Bouldering", "Finger Strength Builder")
 2. Tap **Start Plan** to activate it
-3. The plan will appear in your **ClimMate** tab with your next scheduled workout
+3. The plan will appear in your **YANU** tab with your next scheduled workout
 
 ### Following a Workout
 
