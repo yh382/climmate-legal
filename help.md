@@ -23,7 +23,7 @@ Planned logging fields include climb type, grade, result, attempts, notes, photo
 
 ## Training And Membership
 
-Membership features are planned around training value: video lessons, training plans, advanced analysis, maps, and AI coaching. Community posting and comments are not intended to be the standalone paid service.
+Membership features are planned around training value: video lessons, training plans, advanced analysis, maps, and guided reflection. Community posting and comments are not intended to be the standalone paid service.
 
 ## Community
 

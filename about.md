@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About YANU
-description: YANU is a climbing companion for logs, training, maps, community, and AI coaching.
+description: YANU is a climbing companion for logs, training, maps, and community.
 permalink: /about/
 ---
 
@@ -20,7 +20,7 @@ The product is being prepared as one brand with separate regional operations. Th
 - **Training content**: structured videos, training plans, and membership features.
 - **Maps**: gyms, routes, climbing areas, saved places, and location-aware discovery.
 - **Community**: posts, comments, likes, follows, reports, and climbing-focused discussion.
-- **AI coaching**: permissioned training suggestions based on user-provided data.
+- **Coach notes**: practical training prompts based on user-provided history.
 
 ## Regional Structure
 
