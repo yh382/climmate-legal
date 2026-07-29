@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reset Password | ClimMate</title>
-  <meta name="description" content="Reset your ClimMate account password.">
-  <link rel="icon" type="image/png" href="/climmate-legal/assets/icon.png">
+  <title>重置密码 | 岩友 YANU</title>
+  <meta name="description" content="重置岩友 YANU / ClimMate 账号密码。">
+  <link rel="icon" type="image/png" href="assets/icon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,28 +120,28 @@
 <body>
   <div class="card">
     <div class="brand">
-      <img src="/climmate-legal/assets/icon.png" alt="">
-      climMate
+      <img src="assets/icon.png" alt="">
+      岩友 YANU
     </div>
 
     <div id="form-area">
-      <h1>Reset password</h1>
-      <p class="lead">Enter a new password for your ClimMate account. Minimum 6 characters.</p>
+      <h1>重置密码</h1>
+      <p class="lead">请输入新的账号密码。密码至少 6 个字符。</p>
 
       <form id="reset-form" autocomplete="off">
-        <label for="pw">New password</label>
+        <label for="pw">新密码</label>
         <input type="password" id="pw" name="pw" minlength="6" required autocomplete="new-password">
 
-        <label for="pw2">Confirm password</label>
+        <label for="pw2">确认密码</label>
         <input type="password" id="pw2" name="pw2" minlength="6" required autocomplete="new-password">
 
-        <button type="submit" id="submit-btn">Reset password</button>
+        <button type="submit" id="submit-btn">重置密码</button>
       </form>
       <div id="msg"></div>
     </div>
 
     <div class="footer">
-      Need help? <a href="mailto:support@climmatestudio.com">support@climmatestudio.com</a>
+      需要帮助？<a href="mailto:support@climmatestudio.com">support@climmatestudio.com</a>
     </div>
   </div>
 
@@ -164,9 +164,9 @@
 
       if (!token) {
         formArea.innerHTML =
-          '<h1>Invalid link</h1>' +
-          '<p class="lead">This reset link is missing its token. Open ClimMate and request a new password reset.</p>' +
-          '<a class="open-app" href="climmate://">Open ClimMate</a>';
+          '<h1>链接无效</h1>' +
+          '<p class="lead">这个重置链接缺少必要信息。请回到 App 重新申请密码重置。</p>' +
+          '<a class="open-app" href="climmate://">打开 App</a>';
         return;
       }
 
@@ -176,16 +176,16 @@
         var pw2 = document.getElementById("pw2").value;
 
         if (pw.length < 6) {
-          showMsg("Password must be at least 6 characters.", "error");
+          showMsg("密码至少需要 6 个字符。", "error");
           return;
         }
         if (pw !== pw2) {
-          showMsg("Passwords don't match.", "error");
+          showMsg("两次输入的密码不一致。", "error");
           return;
         }
 
         btn.disabled = true;
-        btn.textContent = "Resetting...";
+        btn.textContent = "正在重置...";
         msg.className = "";
         msg.textContent = "";
 
@@ -202,20 +202,20 @@
           .then(function (r) {
             if (r.status === 200 && r.body && r.body.ok) {
               formArea.innerHTML =
-                '<h1>Password reset</h1>' +
-                '<p class="lead">Your password has been updated. Open ClimMate and sign in with your new password.</p>' +
-                '<a class="open-app" href="climmate://">Open ClimMate</a>';
+                '<h1>密码已重置</h1>' +
+                '<p class="lead">你的密码已经更新。请打开 App 使用新密码登录。</p>' +
+                '<a class="open-app" href="climmate://">打开 App</a>';
               return;
             }
-            var detail = (r.body && r.body.detail) || "Reset failed. The link may be expired — request a new one from the app.";
+            var detail = (r.body && r.body.detail) || "重置失败。链接可能已过期，请在 App 内重新申请。";
             showMsg(detail, "error");
             btn.disabled = false;
-            btn.textContent = "Reset password";
+            btn.textContent = "重置密码";
           })
           .catch(function () {
-            showMsg("Network error. Please try again.", "error");
+            showMsg("网络错误，请稍后再试。", "error");
             btn.disabled = false;
-            btn.textContent = "Reset password";
+            btn.textContent = "重置密码";
           });
       });
     })();

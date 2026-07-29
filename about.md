@@ -1,29 +1,41 @@
 ---
 layout: default
-title: About
+title: 关于岩友 YANU
+description: 岩友 YANU 是面向攀岩者的记录、训练、地图与社区服务。
 permalink: /about/
 ---
 
-# About ClimMate
+# 关于岩友 YANU
 
-ClimMate is a climbing training platform designed for climbers who want to track progress, train smarter, and connect with the climbing community.
+**更新日期：2026 年 7 月 29 日**
 
-## What We Do
+岩友 YANU 是为攀岩者设计的记录、训练、地图与社区服务。我们希望把攀爬记录做得足够轻，把训练反馈做得足够清楚，让用户在长期训练中看到自己的真实进步。
 
-- **Climb Tracking** — Log your bouldering, lead, toprope, and trad climbs with minimal friction. Grade + result in 2 taps.
-- **AI Coaching** — Personalized training plans that adapt to your level, goals, and schedule.
-- **Performance Analysis** — Detailed stats, grade progression charts, and session insights to help you climb stronger.
-- **Community** — Share your sends, follow friends, and discover what others are climbing.
-- **Gym Discovery** — Find climbing gyms near you on an interactive map.
+当前中国大陆服务仍处于筹备阶段。正式上线前，我们会完成公司主体下的域名备案、App 备案、必要经营许可、隐私政策、用户协议、个人信息清单与第三方服务清单。
 
-## Our Philosophy
+## 我们提供什么
 
-We believe training should be simple and intuitive. ClimMate removes the friction from logging climbs so you can focus on what matters — climbing.
+- **攀爬日志**：用尽量少的步骤记录 grade、result、训练地点、照片、视频和体感。
+- **能力分析**：基于用户记录生成训练量、难度边界、能力趋势和恢复建议。
+- **训练内容**：提供结构化训练视频、训练计划和会员权益。
+- **地图服务**：帮助用户发现岩馆、路线、岩区和收藏地点。
+- **社区交流**：支持发帖、评论、关注、点赞和举报，围绕真实攀爬建立交流。
+- **AI 教练**：在用户授权范围内提供训练建议和答疑。
 
-## Contact
+## 中国大陆版本规划
 
-Have questions, feedback, or just want to say hi?
+中国大陆版本将采用独立域名、独立后端、独立数据库和境内部署。用户个人信息不与海外版本做实时双向同步。
 
-**Email**: [support@climmatestudio.com](mailto:support@climmatestudio.com)
+我们会按中国大陆合规要求准备：
 
----
+- ICP 备案和 App 备案；
+- 经营性互联网信息服务所需许可评估与申请；
+- 内容审核、举报、处置和社区治理流程；
+- 个人信息保护、权限说明和第三方服务披露；
+- 已备案模型接入、登记与公示。
+
+## 联系方式
+
+业务合作、岩馆合作、内容合作或用户反馈，可通过邮件联系：
+
+**support@climmatestudio.com**

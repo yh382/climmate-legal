@@ -1,121 +1,56 @@
 ---
 layout: default
-title: Help Center
+title: 帮助中心
+description: 岩友 YANU 的使用帮助、账号说明和联系方式。
+permalink: /help/
 ---
 
-# ClimMate Help Center
+# 帮助中心
 
-Welcome to the ClimMate Help Center. Here you'll find answers to common questions about using the app.
+**更新日期：2026 年 7 月 29 日**
 
----
+岩友 YANU 中国大陆服务仍在筹备中。以下内容用于说明计划中的产品能力，正式上线后会随 App 实际功能同步更新。
 
-## Getting Started with ClimMate
-{: #getting-started}
+## 账号与登录
 
-### Creating Your Account
+计划支持手机号、邮箱和 Apple 登录等方式。中国大陆版本会优先考虑手机号与实名合规要求，并在隐私政策中说明账号信息的使用范围。
 
-1. Download ClimMate from the App Store
-2. Tap **Sign Up** and enter your email, username, and password — or use **Sign in with Apple** for one-tap registration
-3. Your **username** is permanent and must be unique (letters, numbers, underscores only). Your **display name** can be changed anytime and supports any language
+## 如何记录攀爬
 
-### Setting Up Your Profile
+岩友的核心记录原则是：**grade + result = 两步完成**。
 
-After signing up, head to the **Profile** tab to:
+计划支持：
 
-- Add a profile photo and bio
-- Set your climbing experience level
-- Choose your home gym
+- 选择攀爬类型和难度；
+- 记录完成结果、尝试次数和体感；
+- 添加照片、视频和备注；
+- 关联岩馆、路线或户外地点；
+- 回看训练日历和历史记录。
 
-### Configuring Preferences
+## 训练与会员
 
-Go to **Settings** (gear icon on your Profile tab) to customize:
+会员服务计划围绕训练价值提供，包括训练视频、训练计划、高级分析、地图能力和 AI 训练建议。中国大陆版本的付费会员服务会在备案与必要经营许可准备完成后开放。
 
-- **Grade scales** — Choose between V-Scale or Font for bouldering, YDS or French for routes
-- **Units** — Switch between metric and imperial
-- **Notifications** — Control which updates you receive
-- **Privacy** — Choose who can see your posts, logs, and follower list
+## 社区内容
 
----
+用户可以发布攀爬动态、评论、点赞、关注其他用户。社区功能会配套：
 
-## How to Log Your Climbs
-{: #logging-climbs}
+- 用户协议和社区规则；
+- 内容审核和风险处置；
+- 举报入口；
+- 黑名单和隐私设置；
+- 未成年人保护与账号安全策略。
 
-ClimMate makes it easy to record your climbing sessions. The core principle: **grade + result = 2 taps**.
+## 隐私与删除账号
 
-### Quick Log Entry
+正式上线版本会提供账号删除、隐私设置、通知设置和个人信息查阅能力。你也可以查看：
 
-1. Go to the **Calendar** tab
-2. Tap the **+** button to start a new session
-3. For each climb, select the **grade** and tap the **result** (Send, Flash, Attempt, etc.)
-4. That's it — two taps per climb!
+- [隐私政策]({{ '/privacy/' | relative_url }})
+- [个人信息清单]({{ '/personal-info/' | relative_url }})
+- [第三方服务清单]({{ '/third-party-sdk/' | relative_url }})
 
-### Optional Details
+## 联系我们
 
-After logging a climb, you can optionally add:
+如果你有岩馆合作、定线员工具、训练内容或早期内测相关问题，请发送邮件至：
 
-- **Feel rating** — How did the climb feel? (Easy / Just Right / Hard)
-- **Style tags** — Slab, Overhang, Crimpy, Dynamic, etc.
-- **Notes** — Free-text notes about beta, conditions, or observations
-
-### Viewing Your History
-
-- **Calendar tab** — Browse your detailed daily logs on a calendar view. Tap any date to see that day's session
-- **Analysis tab** — View trends, grade distributions, and progress charts over time
-- **Profile** — See your summary stats (total sends, highest grade, session count)
-
-### Session Management
-
-- Each session is associated with a **gym** (or outdoor location)
-- Sessions track your total climbs, send rate, and session duration
-- You can edit or delete past sessions from the Calendar tab
-
----
-
-## How to Use Training Plans
-{: #training-plans}
-
-Training plans help you structure your climbing practice with guided workouts and progress tracking.
-
-### Finding a Plan
-
-Go to the **ClimMate** tab and look for training plans. You can browse:
-
-- **Official plans** — Curated by ClimMate, designed for different skill levels and goals
-- **Community plans** — Created and shared by other climbers
-- **My custom plans** — Plans you've created yourself
-
-### Starting a Plan
-
-1. Browse and select a plan that matches your goal (e.g., "Beginner Bouldering", "Finger Strength Builder")
-2. Tap **Start Plan** to activate it
-3. The plan will appear in your **ClimMate** tab with your next scheduled workout
-
-### Following a Workout
-
-1. Open your active plan and tap the next scheduled workout
-2. Follow the exercise list — each exercise shows sets, reps, rest time, and instructions
-3. Mark exercises as complete as you go
-4. When finished, tap **Complete Workout** to log it
-
-### Tracking Progress
-
-- Your plan shows overall completion percentage and sessions completed
-- Each workout session is automatically linked to your training plan
-- When all sessions are done, the plan auto-completes and moves to your history
-
-### Managing Plans
-
-From the plan overview, you can:
-
-- **Pause** — Temporarily pause a plan without losing progress
-- **Resume** — Pick up where you left off
-- **Complete** — Manually mark a plan as finished
-- **Delete** — Remove a plan from your list
-
----
-
-## Still Have Questions?
-
-If you can't find what you're looking for, use the **Ask** tab in the Help section of the app to send us a message directly. We'll do our best to respond within 1-2 business days.
-
-You can also reach us at [support@climmate.app](mailto:support@climmate.app).
+**support@climmatestudio.com**
