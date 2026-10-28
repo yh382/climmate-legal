@@ -84,7 +84,7 @@ def footer_icp_html() -> str:
     parts = [f'<a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">{html.escape(icp)}</a>']
     psb = SITE.get("psb") or {}
     if psb.get("text"):
-        icon = f'<img src="{html.escape(psb["icon"])}" alt="" style="width:16px;height:16px;vertical-align:-3px;margin-right:4px;">' if psb.get("icon") else ""
+        icon = f'<img src="{html.escape(psb["icon"])}" alt="" style="display:inline-block;height:16px;width:auto;vertical-align:-3px;margin-right:4px;">' if psb.get("icon") else ""
         href = f'https://beian.mps.gov.cn/#/query/webSearch?code={html.escape(psb["code"])}' if psb.get("code") else "https://beian.mps.gov.cn/"
         parts.append(f'<a href="{href}" rel="noopener" target="_blank">{icon}{html.escape(psb["text"])}</a>')
     return "\n          ".join(parts)

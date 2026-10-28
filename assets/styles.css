@@ -654,12 +654,15 @@ img {
 
 .footer-bottom-links {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;            /* 窄屏放不下时整条链接换行,徽章不与文字分家 */
+  justify-content: center;    /* 换行后两行居中;单行(桌面)无影响 */
+  gap: 8px 20px;              /* 行距 8 / 列距 20 */
 }
 
 .footer-bottom-links a {
   font-size: 12px;
   color: var(--text-secondary-dark);
+  white-space: nowrap;        /* 一个备案号 + 图标永远同一行 */
 }
 
 /* ========================================
